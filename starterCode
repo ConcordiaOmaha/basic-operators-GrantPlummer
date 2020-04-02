@@ -13,8 +13,8 @@ int main()
   std::cout << "\nenter a second number: ";
   std::cin >> num2;
   
-  int output = num2 + num1;
+  int output = num1 - num2;
   
-  std::cout << "Adding your numbers gives " << output;
+  std::cout << "Subtracting your numbers gives " << output;
   
 }
